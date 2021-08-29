@@ -1,0 +1,55 @@
+body{
+    font-family: 'Ubuntu', serif;
+}
+
+#background{
+    background-image: url('../img/Background1.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+.ato{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.7); 
+
+    color: white;
+    position: relative;
+    z-index: 10;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.ato-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 300px;
+    height: 190px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 1);
+}
